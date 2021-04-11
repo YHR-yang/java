@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 
 public class 短信服务 {
     public static void main(String[] args) throws IOException{
-        URL url = new URL(" https://itdage.com/kkb/kkbsms?key=xzk&number=18936132062&code=WGN1314");
+        URL url = new URL(" https://itdage.com/kkb/kkbsms?key=xzk&number=18061658119&code=PYZ1234");
         URLConnection conn = url.openConnection();
         InputStream is = conn.getInputStream();
         BufferedReader br = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));

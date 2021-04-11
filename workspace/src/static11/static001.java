@@ -54,6 +54,7 @@ public class static001 {
 
  */
 
+/*
 //实现属性自动命名
 class Book{
     private String title;
@@ -64,15 +65,52 @@ class Book{
     public Book(String title){
         this.title=title;
     }
-    public String getTitle{
+    public String getTitle(){
            return title;
     }
 }
 public class static001 {
     public static void main(String[] args) {
-        System.out.println(new Book("java").getTitle);
+        System.out.println(new Book("java").getTitle());
+        System.out.println(new Book().getTitle());
     }
 }
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
